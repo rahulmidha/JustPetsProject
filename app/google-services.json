@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "160269892306",
+    "firebase_url": "https://justpetsproject-319ba.firebaseio.com",
+    "project_id": "justpetsproject-319ba",
+    "storage_bucket": "justpetsproject-319ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160269892306:android:9ea1f0d302cab860",
+        "android_client_info": {
+          "package_name": "application.justpets.dal.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160269892306-ccvtd5tilro7o9160spq4ijkm86am267.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.justpets.dal.myapplication",
+            "certificate_hash": "c5066c5099a782f62c1bb9a0ca0a1613664e6bfe"
+          }
+        },
+        {
+          "client_id": "160269892306-g1ek4jt7rk96q41i6o4e4a8eg10up3t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuWc3Zmbyzl6lgiES_q7dw7n573JbsNms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160269892306-g1ek4jt7rk96q41i6o4e4a8eg10up3t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
