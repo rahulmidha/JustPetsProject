@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash1"
+    tools:context="application.justpets.dal.myapplication.Helper.BecomeWalker">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="199dp"
+        android:layout_below="@+id/header_cover_image"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/side_nav_bar"
+        android:elevation="4dp"
+        >
+
+        <TextView
+            android:id="@+id/UserEmailID"
+            android:layout_width="339dp"
+            android:layout_height="61dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Become a Dog Walker"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="29dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:maxLines="10"
+        android:layout_width="fill_parent"
+        android:layout_height="262dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:text="> Are you pet-friendly?\n> Do you own a smart phone?\n> Do you enjoy working outside?\n> Do you enjoy bonding with pets?\n> Do you prefer working with animals?\n> Do you like being greeted with excitement?\n> Can you physically handle animals of all sizes?\n> Are you physically fit to walk several hours a day?\n> Are you familiar with animal training and commands?\n> Are you committed to provide qualtiy care to all pets?" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="StartApplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="2dp"
+        android:layout_gravity="center"
+        android:text="APPLY NOW" />
+
+
+</LinearLayout>

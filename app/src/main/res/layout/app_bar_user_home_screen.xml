@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="application.justpets.dal.myapplication.UserView.User_home_screen">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_user_home_screen" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_above="@+id/shop"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:orientation="horizontal"
+        android:background="@drawable/side_nav_bar"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="right|top">
+
+        <ImageView
+            android:id="@+id/pets"
+            android:layout_width="113dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            app:srcCompat="@drawable/dog" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="173dp"
+            android:layout_height="139dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/aniket" />
+
+        <ImageView
+            android:id="@+id/addpets"
+            android:layout_width="90dp"
+            android:layout_height="86dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="45dp"
+            android:src="@drawable/add" />
+
+        <TextView
+            android:id="@+id/nametextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="13dp"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/side_nav_bar"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/side_nav_bar"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="-65dp"
+        tools:layout_editor_absoluteY="253dp">
+
+        <TextView
+            android:id="@+id/bookings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:drawableRight="@drawable/walkerimage"
+            android:textSize="20dp"
+            android:text="WALK YOUR PET" />
+
+        <TextView
+            android:id="@+id/walker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:drawableRight="@drawable/scheduleimage"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="SCHEDULE"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/services"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:drawableRight="@drawable/serviceimage"
+            android:textSize="20dp"
+            android:text="SERVICES"  />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:drawableRight="@drawable/shopimage"
+            android:textSize="20dp"
+            android:text="SHOP"  />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

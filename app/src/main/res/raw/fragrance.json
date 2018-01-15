@@ -1,0 +1,40 @@
+{
+  "fragrances": [
+    {
+      "fragranceName": "Pedigree",
+      "description": "The best dog food ever",
+      "imageUrl": "Ped",
+      "price": 41.29,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Snack Dog Biscuits",
+      "description": "Treat your canine companion to the delicious, meaty flavour of these biscuits that offer a satisfying crunch",
+      "imageUrl": "Ped",
+      "price": 15,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Pet Gate",
+      "description": "Tis Top Paw Super Wide Convertible Pet Gate is perfect for rooms with wide openings, and features a configurable design to fit all openings",
+      "imageUrl": "Ped",
+      "price": 130,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Pet Hair Remover",
+      "description": "Keep your clothes free of pet hair, ticks and more with this 2-pack Evercare Ergo Grip Lint Rollers.",
+      "imageUrl": "Ped",
+      "price": 41.29,
+      "userRating": 5
+    },
+    {
+      "fragranceName": "Canned Food",
+      "description": "deal for dogs with high activity levels, Wilderness provides the optimal balance of protein, fats and healthy complex carbohydrates.",
+      "imageUrl": "Ped",
+      "price": 10,
+      "userRating": 3
+    }
+  ]
+}
+
